@@ -154,3 +154,54 @@ p{
 h2{
     color: var(--WhiteNeutral);
 }
+
+@media (min-width:768px){
+    .container{
+    position: absolute;
+    background-color: var(--GreyNeutral900);
+    width: 25.625em;
+    height: 26.25em;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.card{
+    
+    padding: 30px 40px 30px 40px;
+    gap: 30px;
+    /* height: 100%; */
+}
+
+h1{
+    font-size: 28px;
+}
+
+.buttonRate{
+    width: 55px;
+    height: 55px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.card-thanks{
+    position: absolute;
+    background-color: var(--GreyNeutral900);
+    width: 25.625em;
+    height: 26.5em;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    visibility: hidden;
+}   
+}
