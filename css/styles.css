@@ -148,7 +148,7 @@ p{
 
 .card-thanks .rate{
     width: 60%;
-    height: 35px;
+    height: 2.1875em;
     text-align: center;
     border: none;
     color: var(--OrangePrimary500);
