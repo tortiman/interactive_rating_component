@@ -107,17 +107,17 @@ p{
 }
 
 
-.card .buttonRate:focus,
-.card .buttonRate:focus-visible,
-.card .buttonSubmit:focus,
-.card .buttonSubmit:focus-visible{
+.buttonRate:focus,
+.buttonRate:focus-visible,
+.buttonSubmit:focus,
+.buttonSubmit:focus-visible{
     outline: 2px solid var(--OrangePrimary500);
     outline-offset: 2px;
 }
 
-.card .buttonSubmit.selected,
-.card .buttonSubmit.selected:hover,
-.card .buttonSubmit.selected:focus {
+.buttonSubmit.selected,
+.buttonSubmit.selected:hover,
+.buttonSubmit.selected:focus {
     background-color: var(--WhiteNeutral);
     
 }
