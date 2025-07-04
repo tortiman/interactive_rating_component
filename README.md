@@ -25,10 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/desktop.png)
-![](./screenshots/mobile.png)
-![](./screenshots/tablet.png)
-![](./screenshots/active.png)
+- Desktop design.
+  ![](./screenshots/desktop.png)
+- Mobile design.
+  ![](./screenshots/mobile.png)
+- Tablet design.
+  ![](./screenshots/tablet.png)
+- Active.
+  ![](./screenshots/active.png)
 
 ### Links
 
