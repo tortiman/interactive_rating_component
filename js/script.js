@@ -1,9 +1,4 @@
 document.addEventListener('DOMContentLoaded',()=>{
-    const rate1=document.getElementById('rateOne');
-    const rate2=document.getElementById('rateTwo');
-    const rate3=document.getElementById('rateThree');
-    const rate4=document.getElementById('rateFour');
-    const rate5=document.getElementById('rateFive');
     const spanThanks=document.getElementById('rateThanks');
     const btnSubmit=document.querySelector('.buttonSubmit');
     const formId=document.getElementById('formId');

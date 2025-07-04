@@ -38,14 +38,14 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 20px 20px 30px 20px;
+    padding: 1.25em 1.25em 1.875em 1.25em;
     gap: 1.5em;
 }
 
 .star{
     width: 15px;
     height: 15px;
-    padding: 15px;
+    padding: 0.9375em;
     background-color: var(--backgroundButtonsandStar);
     border-radius: 50%;
 }
@@ -95,17 +95,7 @@ p{
 }
 
 
-.buttonRate:focus,
-.buttonRate:focus-visible,
-.buttonSubmit:focus,
-.buttonSubmit:focus-visible{
-    outline: 2px solid var(--OrangePrimary500);
-    outline-offset: 2px;
-}
-
-
-
-.buttonSubmit{
+.card .buttonSubmit{
     background-color: var(--OrangePrimary500);
     color: var(--GreyNeutral950);
     font-weight: 700;
@@ -117,11 +107,18 @@ p{
 }
 
 
+.buttonRate:focus,
+.buttonRate:focus-visible,
+.buttonSubmit:focus,
+.buttonSubmit:focus-visible{
+    outline: 2px solid var(--OrangePrimary500);
+    outline-offset: 2px;
+}
 
 .buttonSubmit.selected,
 .buttonSubmit.selected:hover,
 .buttonSubmit.selected:focus {
-    background-color: var(--WhiteNeutral) !important;
+    background-color: var(--WhiteNeutral);
     
 }
 
@@ -194,7 +191,7 @@ h2{
 
 .card{
     
-    padding: 30px 40px 30px 40px;
+    padding: 1.875em 2.5em 1.875 2.5em;
     gap: 1.875em;
   
 }
