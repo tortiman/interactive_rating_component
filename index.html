@@ -17,7 +17,7 @@
     <script src="./js/script.js" defer></script>
   </head>
   <body>
-    <form class="container">
+    <form id="formId" class="container">
       <section class="card">
         <img src="./images/icon-star.svg" alt="icon star" class="star" />
         <h1 class="title">How did we do?</h1>
@@ -26,16 +26,41 @@
           is appreciated to help us improve our offering!
         </p>
         <nav class="buttons">
-          <button aria-labelledby="rating 1" type="button" class="buttonRate">
+          <button
+            aria-labelledby="rating 1"
+            type="button"
+            id="rateOne"
+            class="buttonRate"
+          >
             1
           </button>
-          <button aria-labelledby="rating 2" type="button" class="buttonRate">
+          <button
+            aria-labelledby="rating 2"
+            type="button"
+            id="rateTwo"
+            class="buttonRate"
+          >
             2</button
-          ><button aria-labelledby="rating 3" type="button" class="buttonRate">
+          ><button
+            aria-labelledby="rating 3"
+            type="button"
+            id="rateThree"
+            class="buttonRate"
+          >
             3</button
-          ><button aria-labelledby="rating 4" type="button" class="buttonRate">
+          ><button
+            aria-labelledby="rating 4"
+            type="button"
+            id="rateFour"
+            class="buttonRate"
+          >
             4</button
-          ><button aria-labelledby="rating 5" type="button" class="buttonRate">
+          ><button
+            aria-labelledby="rating 5"
+            type="button"
+            id="rateFive"
+            class="buttonRate"
+          >
             5
           </button>
         </nav>
@@ -44,12 +69,14 @@
         </button>
       </section>
     </form>
-    <section class="card-thanks">
+    <section id="cardThanksId" class="card-thanks">
       <img
         src="./images/illustration-thank-you.svg"
         alt="thank you illustration"
       />
-      <p class="rate">You selected <span class="number-rate"></span>out of 5</p>
+      <p class="rate">
+        You selected <span id="rateThanks" class="number-rate"></span> out of 5
+      </p>
       <h2>Thank you!</h2>
       <p>
         We appreciate you taking the time to give a rating. If you ever more

@@ -27,7 +27,7 @@ body{
     background-color: var(--GreyNeutral900);
     width: 20.625em;
     height: 22.5em;
-    border-radius: 20px;
+    border-radius: 0.8em;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -39,7 +39,7 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     padding: 20px 20px 30px 20px;
-    gap: 24px;
+    gap: 1.5em;
 }
 
 .star{
@@ -56,7 +56,7 @@ h1{
 }
 
 p{
-    font-size: 14px;
+    font-size: 0.875em;
     color: var(--GreyNeutral500);
     font-weight: 400;
     margin-top: -10px;
@@ -89,6 +89,12 @@ p{
     color: var(--GreyNeutral950);
 }
 
+.buttonRate.selected{
+    background-color: var(--WhiteNeutral);
+    color: var(--GreyNeutral950);
+}
+
+
 .buttonRate:focus,
 .buttonRate:focus-visible,
 .buttonSubmit:focus,
@@ -110,12 +116,26 @@ p{
     cursor: pointer;
 }
 
+
+
+.buttonSubmit.selected,
+.buttonSubmit.selected:hover,
+.buttonSubmit.selected:focus {
+    background-color: var(--WhiteNeutral) !important;
+    
+}
+
+.buttonSubmit.selected{
+    background-color: var(--WhiteNeutral);
+    
+}
+
 .card-thanks{
     position: absolute;
     background-color: var(--GreyNeutral900);
     width: 20.625em;
     height: 22.5em;
-    border-radius: 20px;
+    border-radius: 1.25em;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -123,7 +143,7 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.25em;
     visibility: hidden;
 }   
 
@@ -143,7 +163,7 @@ p{
     color: var(--OrangePrimary500);
     background-color: var(--backgroundButtonsandStar);
     border-radius: 35px;
-    font-size: 15px;
+    font-size: 0.937em;
     display: flex;              
     align-items: center;          
     justify-content: center; 
@@ -155,13 +175,17 @@ h2{
     color: var(--WhiteNeutral);
 }
 
+.number-rate {
+    white-space: pre;
+}
+
 @media (min-width:768px){
     .container{
     position: absolute;
     background-color: var(--GreyNeutral900);
     width: 25.625em;
     height: 26.25em;
-    border-radius: 20px;
+    border-radius: 1.25em;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -171,12 +195,12 @@ h2{
 .card{
     
     padding: 30px 40px 30px 40px;
-    gap: 30px;
-    /* height: 100%; */
+    gap: 1.875em;
+  
 }
 
 h1{
-    font-size: 28px;
+    font-size: 1.75em;
 }
 
 .buttonRate{
@@ -184,8 +208,13 @@ h1{
     height: 55px;
 }
 
+.buttonRate.selected{
+    background-color: var(--WhiteNeutral);
+    color: var(--GreyNeutral950);
+}
+
 p{
-    font-size: 15px;
+    font-size: 0.937em;
 }
 
 .card-thanks{
@@ -193,7 +222,7 @@ p{
     background-color: var(--GreyNeutral900);
     width: 25.625em;
     height: 26.5em;
-    border-radius: 20px;
+    border-radius: 1.25em;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -201,7 +230,16 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.25em;
     visibility: hidden;
-}   
+}
+
+
+.buttonSubmit.selected,
+.buttonSubmit.selected:hover,
+.buttonSubmit.selected:focus {
+    background-color: var(--WhiteNeutral);
+    
+}
+
 }
