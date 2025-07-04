@@ -89,7 +89,7 @@ p{
     color: var(--GreyNeutral950);
 }
 
-.buttonRate.selected{
+.card .buttonRate.selected{
     background-color: var(--WhiteNeutral);
     color: var(--GreyNeutral950);
 }
@@ -107,25 +107,21 @@ p{
 }
 
 
-.buttonRate:focus,
-.buttonRate:focus-visible,
-.buttonSubmit:focus,
-.buttonSubmit:focus-visible{
+.card .buttonRate:focus,
+.card .buttonRate:focus-visible,
+.card .buttonSubmit:focus,
+.card .buttonSubmit:focus-visible{
     outline: 2px solid var(--OrangePrimary500);
     outline-offset: 2px;
 }
 
-.buttonSubmit.selected,
-.buttonSubmit.selected:hover,
-.buttonSubmit.selected:focus {
+.card .buttonSubmit.selected,
+.card .buttonSubmit.selected:hover,
+.card .buttonSubmit.selected:focus {
     background-color: var(--WhiteNeutral);
     
 }
 
-.buttonSubmit.selected{
-    background-color: var(--WhiteNeutral);
-    
-}
 
 .card-thanks{
     position: absolute;
